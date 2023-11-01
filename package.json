@@ -1,0 +1,24 @@
+{
+  "name": "midterm-portfolio-tbyrne22",
+  "version": "1.0.0",
+  "description": "This is my individual project for class using node, playwright, and git",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NJIT-WIS/midterm-portfolio-Tbyrne22.git"
+  },
+  "keywords": [
+    "example",
+    "student",
+    "project"
+  ],
+  "author": "Tom Byrne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NJIT-WIS/midterm-portfolio-Tbyrne22/issues"
+  },
+  "homepage": "https://github.com/NJIT-WIS/midterm-portfolio-Tbyrne22#readme"
+}
