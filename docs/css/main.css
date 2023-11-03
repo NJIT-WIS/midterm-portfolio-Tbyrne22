@@ -5,7 +5,7 @@
     --color-accent: #8FB2BF;  /* Light blue for links hover and section separators */
     --hover-color: #88b7d8;
     --background-color-main: rgba(35, 37, 38, .95);
-    --background-color-sidebar: #613814de;
+    --background-color-landing: #613814de;
     --text-color-sidebar: #e4f2f2;
 
 
@@ -19,7 +19,7 @@
     /* Padding around sidebar content */
 
     /* Fonts */
-    --font-primary: 'Cormorant Garamond', serif;
+    --font-primary: 'Baskerville', serif;
     /* Main font */
     --font-secondary: 'EB Garamond', serif;
     /* Secondary font (headings)*/
@@ -37,7 +37,7 @@
     /* Font size for the smallest headings */
 
     /* Other */
-    --base-line-height: 1.5;
+    --base-line-height: 1.5rem;
     /* Base line height for text */
     --section-separator: 1px solid var(--color-accent);
     /* Line to separate sections */
@@ -48,3 +48,95 @@
 
     /* Link hover color */
 }
+
+
+/* Text Styles */
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-secondary);
+    text-transform: capitalize;
+}
+
+a {
+    font-family: var(--font-secondary);
+    font-size: var(--h3-font-size);
+    color: var(--base-link-color);
+    text-decoration: none;
+    letter-spacing: 0.15rem;
+}
+
+/* Layout Styles */
+main {
+    
+    margin: 0 auto;
+    background: var(--background-color-main);
+}
+
+
+/*Section Styles */
+body {
+    font-family: var(--font-primary);
+    font-size: var(--base-font-size);
+    color: white;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    font-size: var(--base-font-size);
+    line-height: 4rem;
+    margin: 2rem 2rem;
+    height: 6rem;
+    }
+
+    .logo {
+        margin-right: auto;
+        font-family: var(--font-secondary);
+        background-color: #88b7d8;
+
+        display: inline-block;
+        padding-right: 1em;
+        padding-left: 1em;
+        border-radius: 83px;
+
+        letter-spacing: .1rem;
+        font-weight: lighter;
+
+        white-space: nowrap;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        flex-basis: auto;
+        margin: auto 6rem;
+        gap: 6rem;
+    }
+
+    .menu-item {
+        text-align: match-parent;
+        font-weight: 500;
+        letter-spacing: normal;
+    }
+
+    .header-cta {
+        font-family: var(--font-secondary);
+        background-color: white;
+        color: var(--color-secondary);
+
+        line-height: var(--base-font-size);
+        padding: .7em 1.5em;
+        border-radius: 83px;
+
+        letter-spacing: .1rem;
+        font-weight: bolder;
+        white-space: nowrap;
+    }
