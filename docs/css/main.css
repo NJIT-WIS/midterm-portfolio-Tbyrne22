@@ -127,6 +127,7 @@ header {
         text-align: match-parent;
         font-weight: 500;
         letter-spacing: normal;
+        white-space: nowrap;
     }
 
     .header-cta {
@@ -184,4 +185,26 @@ a.pill-link:hover {
     width: 50vw;
     height: auto;
     border-radius: 4rem;
+}
+
+/* Transition Section Styling */
+.landing-transition {
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow:  #2B2B2B;
+    height: 25vw;
+    overflow: hidden;
+
+    /* background:  url(../images/mountain.webp) no-repeat;
+    background-size: contain;
+    background-clip: content-box; */
+}
+
+.clipped-transition-img {
+  width: 100%; /* Ensure the clipped image fills the container */
+  height: 100%; /* Ensure the clipped image fills the container */
+  background-image: url(../images/mountain.webp); /* Set the image as the background */
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center center; /* Center the background image */
 }
