@@ -192,9 +192,10 @@ a.pill-link:hover {
     margin: 0 auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    box-shadow:  #2B2B2B;
+    box-shadow:  black;
     height: 25vw;
     overflow: hidden;
+    background-color: var(--background-color-main);
 
     /* background:  url(../images/mountain.webp) no-repeat;
     background-size: contain;
