@@ -67,9 +67,12 @@ a {
     letter-spacing: 0.15rem;
 }
 
+.highlighted {
+    color: var(--color-secondary);
+}
+
 /* Layout Styles */
 main {
-    
     margin: 0 auto;
     background: var(--background-color-main);
 }
@@ -80,7 +83,6 @@ body {
     font-family: var(--font-primary);
     font-size: var(--base-font-size);
     color: white;
-    
 }
 
 a:hover {
@@ -93,7 +95,7 @@ header {
     align-items: center;
     font-size: var(--base-font-size);
     line-height: 4rem;
-    margin: 2rem 2rem;
+    margin: auto 2rem;
     height: 6rem;
     }
 
@@ -140,3 +142,46 @@ header {
         font-weight: bolder;
         white-space: nowrap;
     }
+
+
+/*Hero Section Styles */
+.hero {
+    margin: auto auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    background: linear-gradient(var(--background-color-landing) 75%, white);
+    height: calc(vw / 1.618);
+    /* font: --font / 1.5  var(--font-primary); */
+}
+.hero-text {
+    width: 50vw;
+}
+
+a.pill-link {
+    display: inline-block;
+    padding: 1rem 3rem;
+    border-radius: 83px;
+    background-color: var(--color-secondary);
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+a.pill-link:hover {
+    transform: translateY(5px);
+    border: #FFF solid 3px;
+}
+
+.hero-image {
+    justify-content: center;
+    align-items: center;
+}
+.hero-image img{
+    width: 50vw;
+    height: auto;
+    border-radius: 4rem;
+}
