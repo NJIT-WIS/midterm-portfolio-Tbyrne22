@@ -84,9 +84,15 @@ body {
     font-family: var(--font-primary);
     font-size: var(--base-font-size);
     color: white;
-    
 }
 
+#project-page {
+    background: url('../images/mountain.webp'); 
+    /* Background image */
+    background-size: cover;
+    /* Scale the background image to be as large as possible */
+
+}
 a:hover {
     text-decoration: underline;
 }
