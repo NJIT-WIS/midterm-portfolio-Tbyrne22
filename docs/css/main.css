@@ -4,9 +4,10 @@
     --color-secondary: #F28A2E;  /* Orange for title headings for sidebar */
     --color-accent: #8FB2BF;  /* Light blue for links hover and section separators */
     --hover-color: #88b7d8;
-    --background-color-main: rgba(35, 37, 38, .95);
+    --background-color-main: #2B2B2B;
     --background-color-landing: #613814de;
     --text-color-sidebar: #e4f2f2;
+    --color-header: #232526; 
 
 
 
@@ -83,6 +84,7 @@ body {
     font-family: var(--font-primary);
     font-size: var(--base-font-size);
     color: white;
+    
 }
 
 a:hover {
@@ -95,8 +97,10 @@ header {
     align-items: center;
     font-size: var(--base-font-size);
     line-height: 4rem;
-    margin: auto 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     height: 6rem;
+    background-color: var(--color-header);
     }
 
     .logo {
@@ -192,10 +196,9 @@ a.pill-link:hover {
     margin: 0 auto;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    box-shadow:  black;
     height: 25vw;
     overflow: hidden;
-    background-color: var(--background-color-main);
+    background-color: black;
 
     /* background:  url(../images/mountain.webp) no-repeat;
     background-size: contain;

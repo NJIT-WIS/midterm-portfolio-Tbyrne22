@@ -33,16 +33,56 @@
 </head>
 
 <body>
-    <main>
-        <header>
-            <a href="#" class="logo"><b>Tom Byrne Portfolio</b></a>
-            <nav class="menu">
-                <a href="index.html" class="menu-item">Home</a>
-                <a href="project-page.html" class="menu-item">Projects</a>
-                <a href="aboutme-page.html" class="menu-item">About Me</a>
-            </nav>
-            <a href="#" class="header-cta">Contact Me</a>
-        </header>
-    </main>
+    <header>
+        <a href="#" class="logo"><b>Tom Byrne Portfolio</b></a>
+        <nav class="menu">
+            <a href="index.html" class="menu-item">Home</a>
+            <a href="project-page.html" class="menu-item">Projects</a>
+            <a href="aboutme-page.html" class="menu-item">About Me</a>
+        </nav>
+        <a href="#" class="header-cta">Contact Me</a>
+    </header>
+
+    <div class="container"> <!-- Container class will be used to style all the content within it -->
+
+        <aside class="sidebar" role="complementary"> <!-- The aside tag is used for content that is related but separate from the main content, often as a sidebar -->
+
+            <div class="skills-sidebar"> <!-- A div to contain all elements on the top of the sidebar -->
+                <h2>Skills</h2> <!-- Title of the skills section -->
+                <ul class="skill-list"> <!-- Unordered list to contain all skills -->
+                    <li><i class="fas fa-code"></i> Python & C</li>
+                    <li><i class="fas fa-cubes"></i> MicroStation</li>
+                    <li><i class="fas fa-file-excel"></i> Excel</li>
+                    <li><i class="fas fa-database"></i> PI Data Systems</li>
+                    <li><i class="fas fa-book"></i> Knowledge Management</li>
+                    <li><i class="fas fa-bolt"></i> Power Systems</li>
+                    <li><i class="fas fa-briefcase"></i> Project Management</li>
+                    <li><i class="fas fa-users"></i> DE&I</li>
+                </ul> <!-- Closes the skill list -->
+            </div> <!-- Closes the sidebar div -->
+        </aside> <!-- Closes the aside tag -->
+
+        <main class="main-content" role="main"> <!-- The main content of the webpage, where the major content is placed -->
+
+            <header role="banner"> <!-- Header of the main content -->
+                <h1><center><em>On a Quest to Modernize Utilities</em></center></h1> <!-- Title of the resume -->
+            </header>
+
+            <section class="projects-section"><!-- A section to list projects -->
+                <h2>Engineering Projects</h2>
+                <ul>
+                    <li><b>SCADA/Fiber Installations: </b>Lead designer for the installation of network device racks, connecting fiber communications between stations.</li>
+                    <li><b>Breaker Installations and Replacements: </b>Lead designer for high voltage breakers for projects and emergencies.</li>
+                    <li><b>Transformer Replacements: </b>Designer for the replacement of 26-4kV transformers.</li>
+                    <li><b>Horizontal-Axis Wind Turbine: </b>Designed a horizontal-axis turbine that uses pitch control and a pulse-width modulated rectifier to maximize power flow conversion efficiency.</li>
+                    <li><b>Power Transformer Technical Design Specifications: </b>Developing design specifications for new power transformers.</li>
+                    <li><b>Grid Modeling: </b>Developing risk assessment models for station outages.</li>
+                    <li><b>Data Analysis: </b>Data analysis and modelling for incoming data transmitted from High Voltage equipment.</li>
+                    <li><b>Asset Health Monitoring: </b>Developing intelligent station programs to determine asset health using PI data.</li>
+                </ul>
+            </section><!-- Closes the projects section -->
+        </main> <!-- Closes the main content -->
+    </div> <!-- Closes the container -->
+    <footer></footer>
 
 </body>
