@@ -225,7 +225,7 @@ a.pill-link:hover {
     /* Apply Flexbox layout */
     flex-direction: row-reverse;
     /* Reverse the natural order of elements */
-    max-width: 90vw;
+    max-width: 80vw;
     /* Maximum width of the container */
     margin: 2rem auto;
     /* Centrally align the container horizontally */
@@ -251,11 +251,20 @@ a.pill-link:hover {
     /* Distribute space evenly between the children */
     padding: var(--sidebar-spacing);
     /* Add padding around the sidebar content */
-    background-color: var(--background-color-sidebar, brown);
+    background-color: var(--background-color-landing, brown);
     /* Background color of the sidebar */
     color: var(--text-color-sidebar, white);
     /* Text color in the sidebar */
-    font-size: clamp(1rem, 5vh, 1.4rem);
+}
+
+.sidebar h2{
+    text-align: center;
+}
+
+#project-header {
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color-main);
 }
 
 .main-content {
