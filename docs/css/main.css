@@ -257,3 +257,33 @@ a.pill-link:hover {
     /* Text color in the sidebar */
     font-size: clamp(1rem, 5vh, 1.4rem);
 }
+
+
+
+
+
+
+/* Responsive design */
+
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        /* Stack children vertically */
+        margin: 0 auto;
+        /* Centrally align the container horizontally */
+        padding: 0;
+        /* Remove padding */
+        width: 100%;
+        /* Full width of the viewport */
+    }
+
+    .sidebar {
+        order: 2;
+        /* Move the sidebar below the main content */
+        height: 100vh;
+        /* Full height of the viewport */
+        overflow-y: hidden;
+        /* Enable scrolling if content overflows vertically */
+    }
+}
