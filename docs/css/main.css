@@ -274,7 +274,38 @@ a.pill-link:hover {
     /* Add padding around the main content */
 }
 
+/*About Me Section Styling*/
 
+.about-me-content {
+    display: flex;
+    /* Apply Flexbox layout */
+    flex-direction: row;
+    /* Reverse the natural order of elements */
+    justify-content: space-between;
+    /* Distribute space evenly between the children */
+    margin: 2rem auto;
+    /* Centrally align the container horizontally */
+    padding: 0;
+    overflow: hidden;
+    /* Hide any content that goes outside the container */
+}
+
+.about-me-text {
+    flex: 1.618;
+    /* Take up the golden ratio of the available space */
+}
+
+.portfolio-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-image img{
+    max-width: 70%;
+    height: auto;
+    border-radius: 30px;
+    border: .5rem solid var(--background-color-landing);
+}
 
 
 
