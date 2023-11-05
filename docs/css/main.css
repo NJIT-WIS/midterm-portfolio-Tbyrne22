@@ -258,6 +258,13 @@ a.pill-link:hover {
     font-size: clamp(1rem, 5vh, 1.4rem);
 }
 
+.main-content {
+    flex: 1.618;
+    /* Take up the golden ratio of the available space */
+    padding: var(--section-spacing);
+    /* Add padding around the main content */
+}
+
 
 
 
