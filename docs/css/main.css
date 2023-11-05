@@ -218,3 +218,42 @@ a.pill-link:hover {
   background-size: cover; /* Cover the entire container with the background image */
   background-position: center center; /* Center the background image */
 }
+
+/*Project Page Styling*/
+.container {
+    display: flex;
+    /* Apply Flexbox layout */
+    flex-direction: row-reverse;
+    /* Reverse the natural order of elements */
+    max-width: 90vw;
+    /* Maximum width of the container */
+    margin: 2rem auto;
+    /* Centrally align the container horizontally */
+    padding: 0;
+    background-color: var(--background-color-main, black);
+    /* Background color of the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    /* Add shadow around the container */
+    border-radius: 5px;
+    /* Add rounded corners to the container */
+    overflow: hidden;
+    /* Hide any content that goes outside the container */
+}
+
+.sidebar {
+    flex: 1;
+    /* Take up 1 fraction of the available space */
+    display: flex;
+    /* Apply Flexbox layout */
+    flex-direction: column;
+    /* Stack the children vertically */
+    justify-content: space-between;
+    /* Distribute space evenly between the children */
+    padding: var(--sidebar-spacing);
+    /* Add padding around the sidebar content */
+    background-color: var(--background-color-sidebar, brown);
+    /* Background color of the sidebar */
+    color: var(--text-color-sidebar, white);
+    /* Text color in the sidebar */
+    font-size: clamp(1rem, 5vh, 1.4rem);
+}
