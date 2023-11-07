@@ -275,6 +275,20 @@ a.pill-link:hover {
 }
 
 /*About Me Section Styling*/
+.about-me {
+    padding-top: 3rem;
+    padding-bottom: var(--section-spacing)
+}
+
+.about-me-content h2, h3 {
+    color: var(--color-secondary);
+}
+
+.about-me header{
+    background-color: var(--background-color-main);
+    text-align: center;
+    justify-content: center;
+}
 
 .about-me-content {
     display: flex;
@@ -293,6 +307,7 @@ a.pill-link:hover {
 .about-me-text {
     flex: 1.618;
     /* Take up the golden ratio of the available space */
+    margin-right: 2rem;
 }
 
 .portfolio-image {
@@ -309,7 +324,6 @@ a.pill-link:hover {
 }
 
 /*Contact Me Section Styling*/
-
 
 .contact-section {
     display: flex;
