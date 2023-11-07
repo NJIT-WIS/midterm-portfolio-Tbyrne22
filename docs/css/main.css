@@ -65,11 +65,22 @@ a {
     font-size: var(--h3-font-size);
     color: var(--base-link-color);
     text-decoration: none;
-    letter-spacing: 0.15rem;
+    
 }
 
 .highlighted {
     color: var(--color-secondary);
+}
+
+ul {
+    list-style-type: none;
+}
+
+i{
+    margin-right: calc(.5 * var(--base-spacing));
+    /* Adding margin between generic font-awesome icons and text */
+    font-size: var(--icon-font-size);
+    /* Icon size */
 }
 
 /* Layout Styles */
@@ -279,6 +290,10 @@ a.pill-link:hover {
     background-color: var(--background-color-main);
 }
 
+.projects-section ul {
+    list-style-type: disc;
+}
+
 .main-content {
     flex: 1.618;
     /* Take up the golden ratio of the available space */
@@ -289,7 +304,8 @@ a.pill-link:hover {
 /*About Me Section Styling*/
 .about-me {
     padding-top: 3rem;
-    padding-bottom: var(--section-spacing)
+    padding-bottom: var(--section-spacing);
+    border-bottom: 2rem solid var(--color-header);
 }
 
 .about-me-content h2, h3 {
@@ -320,6 +336,7 @@ a.pill-link:hover {
     flex: 1.618;
     /* Take up the golden ratio of the available space */
     margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .portfolio-image {
@@ -343,11 +360,15 @@ a.pill-link:hover {
     width: 100%;
     justify-content:space-between;
     padding-bottom: 6rem;
+
+    
 }
 
 .contact-content {
     flex: 1;
     display: flex;
+
+    margin-top: 4rem;
 }
 
 .contact-section .email-form {
@@ -422,8 +443,8 @@ a.pill-link:hover {
 
 .footnotes i {
     line-height: 2rem;
+    margin-right: 10px;
 }
-
 
 
 /* Responsive design */
