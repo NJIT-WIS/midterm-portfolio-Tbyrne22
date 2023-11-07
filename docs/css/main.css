@@ -93,11 +93,23 @@ body {
     /* Scale the background image to be as large as possible */
 
 }
+
 a:hover {
     text-decoration: underline;
 }
 
-/*Header Styles */
+.section-header {
+    text-align: center;
+    justify-content: center;
+    flex-basis: 100%;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.1rem;
+    text-underline-position: under;
+    text-underline-offset: 0.15rem;
+}
+
+/*Landing Page Header Styles */
 header {
     display: flex;
     align-items: center;
@@ -331,11 +343,6 @@ a.pill-link:hover {
     width: 100%;
     justify-content:space-between;
     padding-bottom: 6rem;
-}
-
-.contact-header {
-    flex-basis: 100%;
-    text-align: center;
 }
 
 .contact-content {
