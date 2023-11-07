@@ -399,7 +399,7 @@ a.pill-link:hover {
 
 .newsletter-form {
     position: relative;
-    align-items: center; /* Required for positioning */
+    align-items: flex-end; /* Required for positioning */
     width: 50%; /* Set a width for the container */
     z-index: 1;
 }
@@ -464,5 +464,24 @@ a.pill-link:hover {
     .about-me-text {
         order: 2;
         height: 100vh;
+    }
+
+    .contact-content {
+        flex-direction: column-reverse;
+        /* Stack children vertically */
+        margin: 0 auto;
+        /* Centrally align the container horizontally */
+        padding: 0;
+        /* Remove padding */
+        width: 100%;
+        /* Full width of the viewport */
+        align-items: center;
+    }
+
+    .newsletter-form {
+        position: relative;
+        align-items: flex-end ; /* Required for positioning */
+        width: 30%; /* Set a width for the container */
+        z-index: 1;
     }
 }
